@@ -1,5 +1,6 @@
 #!/bin/bash
-#USAGE: bash count_seq.sh FASTA_FILE
-##DESCRIPTION: count sequences in a FASTA file
-grep -C "^>" $1
+#USAGE: bash count_seq.sh FASTA_FILE (AK changes)
+#DESCRIPTION: count sequences in a FASTA file (AK changes)
+grep -c "^>" $1
+
 
